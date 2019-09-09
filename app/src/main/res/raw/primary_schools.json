@@ -1,0 +1,163 @@
+
+                [{
+                    "vote": "501",
+                    "school_name": "Adjumani Central P/S",
+                    "validation_attendance": "149",
+                    "threshold": "1,350,000",
+                    "variable": "660,779",
+                    "annual_budget": "2,010,779",
+                    "quarter_three_release": "670,260"
+                }, {
+                    "vote": "501",
+                    "school_name":"Adjumani Girls P/S",
+                    "validation_attendance": "899",
+                    "threshold": "1,350,000",
+                    "variable": "3,986,848",
+                    "annual_budget": "5,336,848",
+                    "quarter_three_release": "1,778,949"
+               }, {
+                    "vote": "501",
+                    "school_name": "Agojo Lower P/S",
+                    "validation_attendance": "232",
+                    "threshold": "1,350,000",
+                    "variable": "1,028,864",
+                    "annual_budget": "2,378,864",
+                    "quarter_three_release": "792,955"
+                }, {
+                    "vote": "501",
+                    "school_name": "Ajugopi P/S",
+                    "validation_attendance": "255",
+                    "threshold": "1,350,000",
+                    "variable": "1,130,863",
+                    "annual_budget": "2,480,863",
+                    "quarter_three_release": "826,954"
+                }, {
+                    "vote": "501",
+                    "school_name": "Ajujo P/S",
+                    "validation_attendance": "195",
+                    "threshold": "1,350,000",
+                    "variable": "864,778",
+                    "annual_budget": "2,214,778",
+                    "quarter_three_release": "738,259"
+                }, {
+                    "vote": "501",
+                    "school_name": "Aliwara P/S",
+                    "validation_attendance": "417",
+                    "threshold": "1,350,000",
+                    "variable": "1,849,294",
+                    "annual_budget": "3,199,294",
+                    "quarter_three_release": "1,066,431"
+                }, {
+                    "vote": "501",
+                    "school_name": "Amelo P/S",
+                    "validation_attendance": "533",
+                    "threshold": "1,350,000",
+                    "variable": "2,363,726",
+                    "annual_budget": "3,713,726",
+                    "quarter_three_release": "1,237,909"
+                }, {
+                    "vote": "501",
+                    "school_name": "Amuru P/S",
+                    "validation_attendance": "305",
+                    "threshold": "1,350,000",
+                    "variable": "1,352,601",
+                    "annual_budget": "2,702,601",
+                    "quarter_three_release": "900,867"
+                }, {
+                    "vote": "501",
+                    "school_name": "Atura P/S",
+                    "validation_attendance": "347",
+                    "threshold": "1,350,000",
+                    "variable": "1,538,861",
+                    "annual_budget": "2,888,861",
+                    "quarter_three_release": "962,954"
+                }, {
+                    "vote": "501",
+                    "school_name": "Ayiri P/S",
+                    "validation_attendance": "622",
+                    "threshold": "1,350,000",
+                    "variable": "2,758,420",
+                    "annual_budget": "4,108,420",
+                    "quarter_three_release": "1,369,473"
+                }, {
+                  "vote": "501",
+                  "school_name": "Biyaya P/S",
+                  "validation_attendance": "723",
+                  "threshold": "1,350,000",
+                  "variable": "3,206,330",
+                  "annual_budget": "4,556,330",
+                  "quarter_three_release": "1,518,777"
+                }, {
+                  "vote": "501",
+                  "school_name":"Boroli P/S",
+                  "validation_attendance": "854",
+                  "threshold": "1,350,000",
+                  "variable": "3,787,284",
+                  "annual_budget": "5,137,284",
+                  "quarter_three_release": "1,712,428"
+                }, {
+                  "vote": "501",
+                  "school_name": "Cesia P/S",
+                  "validation_attendance": "581",
+                  "threshold": "1,350,000",
+                  "variable": "2,576,595",
+                  "annual_budget": "3,926,595",
+                  "quarter_three_release": "1,308,865"
+                }, {
+                  "vote": "501",
+                  "school_name": "Dzaipi P/S",
+                  "validation_attendance": "652",
+                  "threshold": "1,350,000",
+                  "variable": "2,891,462",
+                  "annual_budget": "4,241,462",
+                  "quarter_three_release": "1,413,821"
+                }, {
+                  "vote": "501",
+                  "school_name": "Elema P/S",
+                  "validation_attendance": "590",
+                  "threshold": "1,350,000",
+                  "variable": "2,616,507",
+                  "annual_budget": "3,966,507",
+                  "quarter_three_release": "1,322,169"
+                }, {
+                  "vote": "501",
+                  "school_name": "Eleukwe P/S",
+                  "validation_attendance": "346",
+                  "threshold": "1,350,000",
+                  "variable": "1,534,426",
+                  "annual_budget": "2,884,426",
+                  "quarter_three_release": "961,475"
+                }, {
+                  "vote": "501",
+                  "school_name": "Esia P/S",
+                  "validation_attendance": "190",
+                  "threshold": "1,350,000",
+                  "variable": "842,604",
+                  "annual_budget": "2,192,604",
+                  "quarter_three_release": "730,868"
+                }, {
+                  "vote": "501",
+                  "school_name": "Etejo P/S",
+                  "validation_attendance": "283",
+                  "threshold": "1,350,000",
+                  "variable": "1,255,037",
+                  "annual_budget": "2,605,037",
+                  "quarter_three_release": "868,346"
+                }, {
+                  "vote": "501",
+                  "school_name": "Etia P/S",
+                  "validation_attendance": "262",
+                  "threshold": "1,350,000",
+                  "variable": "1,161,907",
+                  "annual_budget": "2,511,907",
+                  "quarter_three_release": "837,302"
+                }, {
+                  "vote": "501",
+                  "school_name": "Fuda P/S",
+                  "validation_attendance": "749",
+                  "threshold": "1,350,000",
+                  "variable": "3,321,634",
+                  "annual_budget": "4,671,634",
+                  "quarter_three_release": "1,557,211"
+                }]
+        

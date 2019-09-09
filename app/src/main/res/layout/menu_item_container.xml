@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="2dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp">
+
+
+        <TextView
+            android:id="@+id/menu_item_vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/menu_item_school_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/menu_item_vote"
+            android:textSize="25sp"/>
+
+
+        <TextView
+            android:id="@+id/labelValidation"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            android:text="Validation Attendance: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_vote"/>
+
+        <TextView
+            android:id="@+id/menu_item_validation_attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_school_name"
+            android:layout_toRightOf="@id/labelValidation"/>
+
+        <TextView
+            android:id="@+id/labelThreshold"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:text="Threshold: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_validation_attendance"/>
+
+        <TextView
+            android:id="@+id/menu_item_threshold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_validation_attendance"
+            android:layout_toRightOf="@id/labelThreshold"/>
+
+        <TextView
+            android:id="@+id/labelVariable"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            android:text="Variable: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_threshold"/>
+
+        <TextView
+            android:id="@+id/menu_item_variable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_threshold"
+            android:layout_toRightOf="@id/labelVariable"/>
+
+        <TextView
+            android:id="@+id/labelAnnualBudget"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:text="Annual Budget: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_variable"/>
+
+        <TextView
+            android:id="@+id/menu_item_annual_budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_variable"
+            android:layout_toRightOf="@id/labelAnnualBudget"/>
+
+        <TextView
+            android:id="@+id/labelQuarterRelease"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            android:text="Quarter 3 Release: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_item_annual_budget"/>
+
+        <TextView
+            android:id="@+id/menu_quarter_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_below="@id/menu_item_annual_budget"
+            android:layout_marginBottom="8dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/labelQuarterRelease"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
