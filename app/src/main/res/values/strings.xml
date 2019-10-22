@@ -7,28 +7,21 @@
     <string name="app_name">UG Budget</string>
 
     <string name="select_district">Select District</string>
-    <string name="group1">Accountability</string>
-    <string name="group2">Agriculture</string>
-    <string name="group3">District Discretionary</string>
-    <string name="group4">District Equalisation</string>
-    <string name="group6">Education</string>
-    <string name="group5">Health</string>
-    <string name="group7">Public Sector Management</string>
-    <string name="group8">Social Development</string>
-    <string name="group9">Urban Discretionary</string>
-    <string name="group10">Urban Equalisation</string>
-    <string name="group11">Water and Environment</string>
+    <string name="group0">Budget Summary</string>
+    <string name="group1">Schools</string>
+    <string name="group2">Health</string>
 
-    <string name="group12">Works and Transport</string>
-    <string name="approved">329,378</string>
-    <string name="cumulative">143,365</string>
-    <string name="draft_budget">479,378</string>
     <string name="know_your_budget">Know Your Budget</string>
     <string name="department">Budget Policy and Evaluation Department (BPED)</string>
     <string name="doingmore">#DoingMore</string>
     <string name="title">Ministry of Finance, Planning and Economic Development (MoFPED)</string>
 
     <string name="bped">UG Budget</string>
+
+    <!--sub-county-->
+    <string-array name="group0">
+        <item>Sub-County</item>
+    </string-array>
 
     <string-array name="group1">
         <item>o/w Higher Local Government</item>
@@ -40,71 +33,22 @@
         <item>o/w Lower Local Government</item>
     </string-array>
 
-    <string-array name="group3">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group4">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group5">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group6">
-        <item>All Primary Schools</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group7">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group8">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group9">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group10">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group11">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group12">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
-    <string-array name="group13">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
-    </string-array>
-
     <string-array name="adjumani_fy_primary">
         <item>FY 2014/15</item>
+        <item>FY 2015/16</item>
         <item>FY 2016/17</item>
-        <item>FY 2018/19</item>
+    </string-array>
+
+    <string-array name="bukomansimbi_subcounties">
+        <item>Butenga</item>
+        <item>Kitanda</item>
     </string-array>
 
     <string-array name="districts">
         <item>501 Adjumani</item>
         <item>502 Apac</item>
         <item>503 Arua</item>
+        <item>600 Bukomasimbi</item>
         <item>504 Bugiri</item>
         <item>505 Bundibugyo</item>
         <item>506 Bushenyi</item>

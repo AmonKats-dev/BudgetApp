@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = findViewById(R.id.lstView);
-        searchView = findViewById(R.id.searchView);
+        //searchView = findViewById(R.id.searchView);
 
         textView = findViewById(R.id.textView);
         listItem = getResources().getStringArray(R.array.districts);
@@ -63,23 +63,15 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> param1AdapterView, View param1View, int param1Int, long param1Long) {
                 if (param1Int == 0) {
                     Intent intent = new Intent(MainActivity.this, ExpandableActivity.class);
-                    MainActivity.this.startActivity(intent);
+                    startActivity(intent);
+                }
+                else if (param1Int == 3){
+                    Intent intent = new Intent(MainActivity.this, ExpandableActivity.class);
+                    startActivity(intent);
                 }
             }
         });
 
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String s) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String s) {
-                adapter.getFilter().filter(s);
-                return false;
-            }
-        });
 
     }
 

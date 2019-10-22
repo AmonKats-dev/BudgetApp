@@ -9,11 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdjumaniPrimary"></activity>
+        <activity
+            android:name=".subcounty.KitandaSubCounty"
+            android:label="Kitanda Sub-County"/>
+        <activity
+            android:name=".subcounty.ButegaSubCounty"
+            android:label="Butenga Sub-County"/>
+        <activity
+            android:name=".subcounty.BukomansimbiSubCounties"
+            android:label="Bukomansimbi Sub-Counties"/>
+        <activity android:name=".AdjumaniPrimary" />
         <activity
             android:name=".PopulateActivity"
             android:label="Primary Schools"
-            android:parentActivityName=".ExpandableActivity"></activity>
+            android:parentActivityName=".ExpandableActivity" />
         <activity android:name=".MainPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
