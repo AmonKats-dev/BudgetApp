@@ -27,7 +27,7 @@ public class AdjumaniPrimary extends AppCompatActivity {
         primarySchools.fromAsset("All_primary_schools_14_15.pdf").load();*/
 
         adjumaniListview = findViewById(R.id.primary_adj_listview);
-        listItems = getResources().getStringArray(R.array.adjumani_fy_primary);
+        //listItems = getResources().getStringArray(R.array.adjumani_fy_primary);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, listItems);
         adjumaniListview.setAdapter(adapter);

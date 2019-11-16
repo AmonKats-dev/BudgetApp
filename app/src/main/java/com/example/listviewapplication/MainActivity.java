@@ -65,10 +65,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, ExpandableActivity.class);
                     startActivity(intent);
                 }
-                else if (param1Int == 3){
+                /*else if (param1Int == 3){
                     Intent intent = new Intent(MainActivity.this, ExpandableActivity.class);
                     startActivity(intent);
-                }
+                }*/
             }
         });
 

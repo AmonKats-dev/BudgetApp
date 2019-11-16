@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".subcounty.DzaipiHealth"
+            android:label="Health" />
         <activity
-            android:name=".subcounty.KitandaSubCounty"
-            android:label="Kitanda Sub-County"/>
+            android:name=".subcounty.DzaipiSummary"
+            android:label="Short Summary" />
         <activity
-            android:name=".subcounty.ButegaSubCounty"
-            android:label="Butenga Sub-County"/>
+            android:name=".subcounty.DzaipiSchools"
+            android:label="Schools" />
         <activity
-            android:name=".subcounty.BukomansimbiSubCounties"
-            android:label="Bukomansimbi Sub-Counties"/>
+            android:name=".subcounty.DzaipiSubCounties"
+            android:label="FY 2018/19" />
         <activity android:name=".AdjumaniPrimary" />
         <activity
             android:name=".PopulateActivity"
@@ -32,11 +34,11 @@
         </activity>
         <activity
             android:name=".ExpandableActivity"
-            android:label="Local Sectors"
+            android:label="Subcounty"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="Select District"
+            android:label="Local Government"
             android:parentActivityName=".MainPage" />
     </application>
 

@@ -7,16 +7,16 @@ import android.os.Bundle;
 import com.example.listviewapplication.R;
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class KitandaSubCounty extends AppCompatActivity {
+public class DzaipiHealth extends AppCompatActivity {
 
     PDFView subcounty;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kitanda_county);
+        setContentView(R.layout.activity_dzaipi_health);
 
-        subcounty = findViewById(R.id.kitanda_county);
-        subcounty.fromAsset("Bukomansimbi_Kitanda_1314.PDF").load();
+        subcounty = findViewById(R.id.butega_county);
+        subcounty.fromAsset("Dzaipi_health.pdf").load();
     }
 }

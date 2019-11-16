@@ -7,9 +7,16 @@
     <string name="app_name">UG Budget</string>
 
     <string name="select_district">Select District</string>
-    <string name="group0">Budget Summary</string>
-    <string name="group1">Schools</string>
-    <string name="group2">Health</string>
+    <string name="group0">Dzaipi</string>
+    <string name="group1">Arinyapi</string>
+    <string name="group2">Ukusijoni</string>
+    <string name="group3">Adropi</string>
+    <string name="group4">Ofua</string>
+    <string name="group5">Ciforo</string>
+    <string name="group6">Pacara</string>
+    <string name="group7">Pakele</string>
+    <string name="group8">Adjumani TC</string>
+    <string name="group9">Itirikwa</string>
 
     <string name="know_your_budget">Know Your Budget</string>
     <string name="department">Budget Policy and Evaluation Department (BPED)</string>
@@ -20,28 +27,59 @@
 
     <!--sub-county-->
     <string-array name="group0">
-        <item>Sub-County</item>
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
+    </string-array>
+
+    <string-array name="summary">
+        <item>Short Summary</item>
+        <item>Schools</item>
+        <item>Health</item>
     </string-array>
 
     <string-array name="group1">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
     </string-array>
 
     <string-array name="group2">
-        <item>o/w Higher Local Government</item>
-        <item>o/w Lower Local Government</item>
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
     </string-array>
 
-    <string-array name="adjumani_fy_primary">
-        <item>FY 2014/15</item>
-        <item>FY 2015/16</item>
-        <item>FY 2016/17</item>
+    <string-array name="group3">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
     </string-array>
 
-    <string-array name="bukomansimbi_subcounties">
-        <item>Butenga</item>
-        <item>Kitanda</item>
+    <string-array name="group4">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
+    </string-array>
+
+    <string-array name="group5">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
+    </string-array>
+
+    <string-array name="group6">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
+    </string-array>
+
+    <string-array name="group7">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
+    </string-array>
+
+    <string-array name="group8">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
+    </string-array>
+
+    <string-array name="group9">
+        <item>FY 2018/19</item>
+        <item>FY 2019/20</item>
     </string-array>
 
     <string-array name="districts">

@@ -12,7 +12,7 @@ import android.widget.ListView;
 import com.example.listviewapplication.R;
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class BukomansimbiSubCounties extends AppCompatActivity {
+public class DzaipiSubCounties extends AppCompatActivity {
 
     ListView bukomansimbiListview;
     String[] listItems;
@@ -24,7 +24,7 @@ public class BukomansimbiSubCounties extends AppCompatActivity {
         setContentView(R.layout.activity_bukomansimbi_sub_counties);
 
         bukomansimbiListview = findViewById(R.id.listview_bukomansimbi);
-        listItems = getResources().getStringArray(R.array.bukomansimbi_subcounties);
+        listItems = getResources().getStringArray(R.array.summary);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, listItems);
         bukomansimbiListview.setAdapter(adapter);
@@ -33,10 +33,13 @@ public class BukomansimbiSubCounties extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 if (i == 0){
-                    Intent intent = new Intent(BukomansimbiSubCounties.this, ButegaSubCounty.class);
+                    Intent intent = new Intent(DzaipiSubCounties.this, DzaipiSummary.class);
                     startActivity(intent);
                 }else if (i == 1){
-                    Intent intent = new Intent(BukomansimbiSubCounties.this, KitandaSubCounty.class);
+                    Intent intent = new Intent(DzaipiSubCounties.this, DzaipiSchools.class);
+                    startActivity(intent);
+                }else if (i == 2){
+                    Intent intent = new Intent(DzaipiSubCounties.this, DzaipiHealth.class);
                     startActivity(intent);
                 }
             }
