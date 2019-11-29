@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 
-import com.example.listviewapplication.subcounty.DzaipiSubCounties;
+import com.example.listviewapplication.DzaipiNineteenTwenty.DzaipiFinancialYearEighteenNine;
+import com.example.listviewapplication.DzaipiNineteenTwenty.DzaipiFinancialYearNineteenTwenty;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -134,12 +135,17 @@ public class ExpandableActivity extends AppCompatActivity {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long id) {
                 if (groupPosition == 0 && childPosition == 0){
-                    Intent intent = new Intent(ExpandableActivity.this, DzaipiSubCounties.class);
+                    Intent intent = new Intent(ExpandableActivity.this, DzaipiFinancialYearNineteenTwenty.class);
                     startActivity(intent);
                 }
 
-                /*if (groupPosition == 6 && childPosition == 0){
-                    Intent intent = new Intent(ExpandableActivity.this, AdjumaniPrimary.class);
+                else if (groupPosition == 0 && childPosition == 1){
+                    Intent intent = new Intent(ExpandableActivity.this, DzaipiFinancialYearEighteenNine.class);
+                    startActivity(intent);
+                }
+
+                /*if (groupPosition == 6 && childPosition == 1){
+                    Intent intent = new Intent(ExpandableActivity.this, DzaipiSchoolsNineteenTwenty.class);
                     startActivity(intent);
                 }*/
                 return true;

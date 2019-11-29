@@ -44,9 +44,8 @@ public class DistrictAdapter extends BaseAdapter {
         //if (view == null) {
             LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = layoutInflater.inflate(R.layout.attach_layout, null);
-           TextView districtName = view.findViewById(R.id.textView);
+            TextView districtName = view.findViewById(R.id.textView);
             ImageView arrowImage = view.findViewById(R.id.imageView);
-
 
             districtName.setText(district.getDistrictName());
             //arrowImage.setImageResource(district.getRightArrow());

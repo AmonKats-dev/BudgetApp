@@ -26,7 +26,6 @@ public class MainPage extends AppCompatActivity {
         ActionBar.LayoutParams p = new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         p.gravity = Gravity.CENTER;
 
-
         button = findViewById(R.id.btnBudget);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

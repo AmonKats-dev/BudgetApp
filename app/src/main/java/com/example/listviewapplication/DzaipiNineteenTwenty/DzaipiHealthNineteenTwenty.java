@@ -1,4 +1,4 @@
-package com.example.listviewapplication.subcounty;
+package com.example.listviewapplication.DzaipiNineteenTwenty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.example.listviewapplication.R;
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class DzaipiHealth extends AppCompatActivity {
+public class DzaipiHealthNineteenTwenty extends AppCompatActivity {
 
     PDFView subcounty;
 
@@ -17,6 +17,6 @@ public class DzaipiHealth extends AppCompatActivity {
         setContentView(R.layout.activity_dzaipi_health);
 
         subcounty = findViewById(R.id.butega_county);
-        subcounty.fromAsset("Dzaipi_health.pdf").load();
+        subcounty.fromAsset("Dzaipi_health_Year1920.pdf").load();
     }
 }

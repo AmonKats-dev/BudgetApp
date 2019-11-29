@@ -22,12 +22,10 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
-    SearchView searchView;
     String[] listItem;
     TypedArray right_arrow_image;
     TextView textView;
     ArrayList<DistrictList> districtList;
-    Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = findViewById(R.id.lstView);
+
         //searchView = findViewById(R.id.searchView);
 
         textView = findViewById(R.id.textView);
@@ -44,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         districtList = new ArrayList();
         listItem = getResources().getStringArray(R.array.districts);
         right_arrow_image = getResources().obtainTypedArray(R.array.right_arrow_image);
+
         final ArrayAdapter adapter = new ArrayAdapter(this, R.layout.attach_layout, listItem);
         byte b = 0;
         while (true) {
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, ExpandableActivity.class);
                     startActivity(intent);
                 }
-                /*else if (param1Int == 3){
+                /*else if (param1Int == 1){
                     Intent intent = new Intent(MainActivity.this, ExpandableActivity.class);
                     startActivity(intent);
                 }*/
